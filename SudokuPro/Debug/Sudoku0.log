@@ -1,0 +1,102 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v150\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (Sudoku0.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  Sudoku.cpp
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(5): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(87): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(83): error C4996: 'sf::Text::setColor': объявлен deprecate
+  c:\users\user\source\repos\sudoku0\packages\sfml_system.2.5.1\build\native\include\sfml\graphics\text.hpp(210): note:  см. объявление "sf::Text::setColor"
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(100): error C4996: 'sf::Text::setColor': объявлен deprecate
+  c:\users\user\source\repos\sudoku0\packages\sfml_system.2.5.1\build\native\include\sfml\graphics\text.hpp(210): note:  см. объявление "sf::Text::setColor"
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(290): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(307): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(313): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(317): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(320): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(329): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(343): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(349): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(370): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(352): error C4996: 'sf::Text::setColor': объявлен deprecate
+  c:\users\user\source\repos\sudoku0\packages\sfml_system.2.5.1\build\native\include\sfml\graphics\text.hpp(210): note:  см. объявление "sf::Text::setColor"
+c:\users\user\source\repos\sudoku0\sudoku0\sudoku.cpp(356): error C4996: 'sf::Text::setColor': объявлен deprecate
+  c:\users\user\source\repos\sudoku0\packages\sfml_system.2.5.1\build\native\include\sfml\graphics\text.hpp(210): note:  см. объявление "sf::Text::setColor"
+  Game.cpp
+c:\users\user\source\repos\sudoku0\sudoku0\game.h(10): error C2011: Game: переопределение типа "class"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(5): error C2027: использование неопределенного типа "Game"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(6): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(7): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(7): error C2065: END: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(9): error C2065: font: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(10): warning C4508: {ctor}: функция должна возвращать значение; предполагается возвращаемый тип "void"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(12): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(12): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(13): error C2617: {ctor}: несовместимый оператор return
+  c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(5): note:  см. объявление "{ctor}"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(15): error C2027: использование неопределенного типа "Game"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(17): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(17): error C2065: END: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(19): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(20): error C2050: значение выражения для варианта выбора не является целым
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(21): error C2653: GameState: не является именем класса или пространства имен
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(21): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(21): error C2131: выражение не определяется константой
+  c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(21): note: обнаружено неконстантное (под)выражение
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(22): error C3861: menu: идентификатор не найден
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(24): error C2653: GameState: не является именем класса или пространства имен
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(24): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(24): error C2131: выражение не определяется константой
+  c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(24): note: обнаружено неконстантное (под)выражение
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(25): error C3861: levels: идентификатор не найден
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(31): error C2027: использование неопределенного типа "Game"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(33): error C2065: font: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(45): error C2065: font: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(49): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(52): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(52): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(62): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(62): error C2065: END: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(67): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(67): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(73): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(73): error C2065: END: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(91): error C2027: использование неопределенного типа "Game"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(93): error C2065: font: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(107): error C2065: font: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(110): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(114): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(114): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(128): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(128): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(130): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(130): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(136): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(136): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(138): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(138): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(144): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(144): error C2065: GAME: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(146): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(146): error C2065: MENU: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(151): error C2065: state: необъявленный идентификатор
+c:\users\user\source\repos\sudoku0\sudoku0\game.cpp(151): error C2065: MENU: необъявленный идентификатор
+  Source.cpp
+c:\users\user\source\repos\sudoku0\sudoku0\game.h(10): error C2011: Game: переопределение типа "class"
+  c:\users\user\source\repos\sudoku0\sudoku0\game.h(9): note:  см. объявление "Game"
+c:\users\user\source\repos\sudoku0\sudoku0\source.cpp(7): error C2079: "game" использует не имеющую определения структуру class "Game"
+  Создание кода...
